@@ -14,8 +14,6 @@ export default function App() {
 
   const [albums, setAlbums] = useState();
   const [users, setUsers] = useState();
-  const [userTodos, setUserTodos] = useState();
-
 
   useEffect(() => {
     fetchAlbums();
